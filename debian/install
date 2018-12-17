@@ -1,0 +1,2 @@
+bin/ usr/
+rbd-docker-plugin.conf etc/docker/

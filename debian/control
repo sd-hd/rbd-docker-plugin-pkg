@@ -1,0 +1,10 @@
+Source: rbd-docker-plugin
+Section: base
+Priority: optional
+Maintainer: Ubuntu Developers <sascha.dewald@gmail.com>
+Build-Depends: libc6 (>= 2.15), golang-go, go-dep, ceph-common, xfsprogs
+
+Package: rbd-docker-plugin
+Architecture: amd64
+Depends: ${misc:Depends} golang-go, go-dep, ceph-common, xfsprogs
+Description: Ceph RBD volumd driver plugin 

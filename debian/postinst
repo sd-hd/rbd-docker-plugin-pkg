@@ -1,0 +1,11 @@
+#!/bin/sh
+
+
+export GOPATH=$(mktemp -d)
+
+go get github.com/yp-engineering/rbd-docker-plugin
+
+mkdir -p /usr/libexec/
+cp -f $GOPATH/bin/rbd-docker-plugin /usr/libexec/
+
+rm -rf $GOPATH

@@ -1,0 +1,5 @@
+rbd-docker-plugin (1.0) cosmic; urgency=high
+
+  * Initial Release.
+
+ -- Sascha Dewald <sascha.dewald@gmail.com>  Mon, 17 Dec 2019 22:20:00 +0200
